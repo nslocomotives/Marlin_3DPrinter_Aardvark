@@ -12,7 +12,7 @@ M500 ; saved
 ```
 Next start the bed calibration
 ```
-M303 E-1 C16 S60
+M303 E-1 C5 S60
 ```
 should get an output like this
 ```
