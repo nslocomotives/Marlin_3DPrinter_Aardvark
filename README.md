@@ -16,11 +16,17 @@ M303 E-1 C5 S60
 ```
 should get an output like this
 ```
-output here
+Recv:  bias: 119 d: 119 min: 59.77 max: 60.44
+Recv:  Ku: 449.47 Tu: 10.49
+Recv:  Classic PID
+Recv:  Kp: 269.68
+Recv:  Ki: 51.44
+Recv:  Kd: 353.49
+Recv: PID Autotune finished! Put the last Kp, Ki and Kd constants from above into Configuration.h
 ```
 Storing to Eprom Example
 ```
-M304 D471.14 I062.55 P471.14
+M304 D353.49 I051.44 P269.68
 ```
 Write the change to Eeprom
 ```
