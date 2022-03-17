@@ -104,7 +104,7 @@
 // 147 is Pt100 with 4k7 pullup
 // 110 is Pt100 with 1k pullup (non standard)
 
-#define TEMP_SENSOR_0 1
+#define TEMP_SENSOR_0 5
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_BED 1
@@ -129,7 +129,7 @@
 // When temperature exceeds max temp, your heater will be switched off.
 // This feature exists to protect your hotend from overheating accidentally, but *NOT* from thermistor short/failure!
 // You should use MINTEMP for thermistor short/failure protection.
-#define HEATER_0_MAXTEMP 275
+#define HEATER_0_MAXTEMP 300
 #define HEATER_1_MAXTEMP 275
 #define HEATER_2_MAXTEMP 275
 #define BED_MAXTEMP 150
@@ -160,9 +160,9 @@
 
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 // E3D Hemera
-#define  DEFAULT_Kp 31.62
-#define  DEFAULT_Ki 2.92
-#define  DEFAULT_Kd 85.47
+#define  DEFAULT_Kp 31.16
+#define  DEFAULT_Ki 2.88
+#define  DEFAULT_Kd 84.23
 
 // Ultimaker
 //    #define  DEFAULT_Kp 22.2
