@@ -25,7 +25,7 @@
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
 
-#define STRING_VERSION "1.0.2b"
+#define STRING_VERSION "1.0.2c"
 
 #define STRING_VERSION_CONFIG_H __DATE__ " " __TIME__ // build date and time
 #define STRING_CONFIG_H_AUTHOR "(geeetech, I3 config)" // Who made the changes.
@@ -160,9 +160,9 @@
 
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 // E3D Hemera
-#define  DEFAULT_Kp 31.16
-#define  DEFAULT_Ki 2.88
-#define  DEFAULT_Kd 84.23
+#define  DEFAULT_Kp 32.01
+#define  DEFAULT_Ki 2.85
+#define  DEFAULT_Kd 89.82
 
 // Ultimaker
 //    #define  DEFAULT_Kp 22.2
@@ -203,9 +203,9 @@
 #ifdef PIDTEMPBED
 //120v 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
 //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-    #define  DEFAULT_bedKp 10.00
-    #define  DEFAULT_bedKi .023
-    #define  DEFAULT_bedKd 305.4
+    #define  DEFAULT_bedKp 269.68
+    #define  DEFAULT_bedKi 51.44
+    #define  DEFAULT_bedKd 353.49
 
 //120v 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
 //from pidautotune
